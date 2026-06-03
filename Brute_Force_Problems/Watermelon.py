@@ -17,11 +17,7 @@ Print YES, if the boys can divide the watermelon into two parts, each of them we
 
 def solve():
     
-    n = int(input())
-    
-    # arr = list(map(int, input().split()))
-    
-    # a, b = map(int, input().split())
+    n = int(input())    
     
     if n % 2 == 0 and n > 2:
         print("YES")
