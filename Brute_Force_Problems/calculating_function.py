@@ -15,14 +15,19 @@ Output
 Print f(n) in a single line.
 
 Examples
-InputCopy
+
+Input
 4
-OutputCopy
+
+Output
 2
-InputCopy
+
+Input
 5
-OutputCopy
+
+Output
 -3
+
 Note
 f(4)=-1+2-3+4=2
 
