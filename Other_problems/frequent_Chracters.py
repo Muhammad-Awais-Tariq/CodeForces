@@ -1,3 +1,28 @@
+
+"""
+Problem Statement
+
+Given a string consisting of lowercase English letters, find the character that appears the most times.
+
+If multiple characters have the same highest frequency, output the alphabetically smallest one.
+
+Input
+
+A single string s.
+
+Output
+
+Print the character with the highest frequency.
+
+Example 
+
+Input
+banana
+
+Output
+a
+"""
+
 string = input()
 all_chars = list(set(string))
 all_chars.sort()
