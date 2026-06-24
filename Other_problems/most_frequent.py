@@ -1,3 +1,24 @@
+
+"""
+Given n integers, find the number that appears most frequently.
+
+If multiple numbers have the same highest frequency, output the smallest one.
+
+Input
+8
+1 2 2 3 3 3 4 4
+
+Output
+3
+
+Input
+6
+1 1 2 2 3 3
+
+Output
+1
+"""
+
 total_num = input().split()
 numbers = list(map(int , input().split()))
 unique_num = list(set(numbers))
