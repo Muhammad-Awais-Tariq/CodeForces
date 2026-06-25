@@ -1,3 +1,17 @@
+
+"""
+Take a sentence as input and print how many times each word appears.
+
+Example
+Input:
+apple banana apple mango banana apple
+
+Output:
+apple : 3
+banana : 2
+mango : 1
+"""
+
 all_words = input().split()
 words_frequency = {}
 
