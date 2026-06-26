@@ -1,3 +1,25 @@
+
+"""
+Problem : Check if Two Strings are Anagrams
+
+Two words are anagrams if they contain the same letters with the same frequencies, just in a different order.
+
+Write a program that:
+
+Takes two strings as input.
+Prints "Anagram" if they are anagrams.
+Otherwise, prints "Not Anagram".
+
+Example 
+
+Input
+listen
+silent
+
+Output
+Anagram
+"""
+
 word1 = input()
 word2 = input()
 word1_letter_dict = {}
@@ -17,5 +39,5 @@ else:
             word2_letter_dict[letter] += 1
         else:
             word2_letter_dict[letter] = 1    
-            
+
     print("Anagram" if word1_letter_dict == word2_letter_dict else "Not Anagram")
