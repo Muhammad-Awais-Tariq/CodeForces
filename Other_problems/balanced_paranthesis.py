@@ -1,4 +1,27 @@
 
+"""
+Balanced Parentheses
+
+Given a string containing only ( and ), determine whether the parentheses are balanced.
+
+A string is balanced if:
+
+Every opening parenthesis has a matching closing parenthesis.
+They are closed in the correct order.
+
+Input
+(()())
+
+Output
+Balanced
+
+Input
+(()(()
+
+Output
+Not Balanced
+"""
+
 full_string = input()
 is_balanced = True
 balance = 0
