@@ -1,4 +1,24 @@
 
+"""
+Longest Consecutive Increasing Sequence
+
+Given a list of integers, find the length of the longest consecutive increasing sequence.
+
+A sequence is consecutive increasing if each next element is exactly 1 greater than the previous one.
+
+Input
+8
+1 2 3 8 9 10 11 5
+Output
+4
+
+Explanation:
+
+1 2 3 → length = 3
+8 9 10 11 → length = 4
+
+So the answer is 4.
+"""
 
 numbers = list(map(int, input().split()))
 
